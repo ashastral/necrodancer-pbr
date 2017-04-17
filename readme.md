@@ -1,5 +1,7 @@
 # PBR: Pre-Built Racing Mod
 
+![PBR logo](/images/pbr.jpg?raw=true)
+
 PBR is a mod generator for Crypt of the NecroDancer that takes a seed and produces a mod with unique starting items and a rebalanced item pool.
 
 ## Rationale

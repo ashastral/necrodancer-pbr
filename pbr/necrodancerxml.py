@@ -33,12 +33,12 @@ class NecrodancerItems(object):
         for item in self.items:
             item_matches = True
             for attr, value in kwargs.items():
-                if attr == 'name' and item.tag != value:
-                    item_matches = False
-                    break
-                elif item.get(attr) != value:
-                    item_matches = False
-                    break
+                if attr == 'name':
+                    if item.tag != value:
+                        item_matches = False
+                else:
+                    if item.get(attr) != value:
+                        item_matches = False
             if item_matches:
                 result.append(NecrodancerItem(item))
         return result

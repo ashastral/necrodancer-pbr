@@ -27,23 +27,23 @@ Item chances are modified from the base game as follows:
 
 * The following items are removed from the item pool:
     - **Weapons:** all cats, rapiers, axes, special daggers, and guns
-    - **Shovels:** courage and strength
-    - **Headgear:** miner's cap and glass jaw
+    - **Shovels:** shovel of courage
+    - **Headgear:** miner's cap, monocle, and glass jaw
     - **Footwear:** boots of leaping, lunging, and pain
     - **Torches:** torch of walls
     - **All rings and spells**
-    - **Misc / charms:** bag of holding, map, compass, bomb charm, grenade charm, and strength charm
-    - **Scrolls:** enchant weapon and need
+    - **Misc / charms:** bag of holding, map, compass, and strength charm
+    - **Scrolls:** enchant weapon scroll and scroll of need
     - **Consumables:** magic drumstick, magic ham, and magic cookies
-* The following items are restricted to the Zone 2+ boss chests:
-    - **Headgear:** blast helm  
-    - **Armor:** platemail, heavy plate
-    - **Misc / charms:** grenade charm, bomb charm
+* The following items are removed from chests and containers:
+    - **All headgear, armor, and footwear**
 * The following items are restricted to locked shops:
-    - **Weapons:** all remaining titanium, obsidian, and glass weapons (no cats, rapiers, or axes)
-* Zone 2+ boss chests contain only the following items:
+    - **Weapons:** all remaining titanium, obsidian, and glass weapons
+    - **Shovels:** shovel of strength
+    - **Headgear:** sunglasses and spiked ears
+    - **Torches:** torch of strength
+* The following items are restricted to Zone 2+ boss chests:
     - **Red:** blast helm, grenade charm, bomb charm, 3 bombs
-    - **Purple:** *unmodified (scrolls and tomes)*
     - **Black:** all armor except karate gi and leather
 
 Some basic meta you should know as a racer:

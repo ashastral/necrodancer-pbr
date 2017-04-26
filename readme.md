@@ -41,6 +41,7 @@ Item chances are modified from the base game as follows:
     - **Weapons:** all remaining titanium, obsidian, and glass weapons
     - **Shovels:** shovel of strength
     - **Headgear:** sunglasses and spiked ears
+    - **Footwear:** boots of strength
     - **Torches:** torch of strength
 * The following items are restricted to Zone 2+ boss chests:
     - **Red:** blast helm, grenade charm, bomb charm, 3 bombs

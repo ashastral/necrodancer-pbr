@@ -87,7 +87,9 @@ class BuildRandomizer(object):
     def set_misc(self):
         roll_1d10 = (lambda: self.rng.randrange(10) == 0)
         for item in self.ndxml.items.filter(slot='misc'):
-            if item.name not in ('misc_golden_key', 'misc_golden_key2', 'misc_golden_key3', 'misc_glass_key', 'misc_key', 'misc_magnet', 'misc_potion', 'charm_bomb', 'charm_grenade', 'charm_luck'):
+            if item.name not in (   'misc_golden_key', 'misc_golden_key2', 'misc_golden_key3',
+                                    'misc_glass_key', 'misc_key', 'misc_magnet', 'misc_potion',
+                                    'charm_bomb', 'charm_grenade', 'charm_luck'):
                 if roll_1d10():
                     self.build.append(item)
 
@@ -98,7 +100,8 @@ class BuildRandomizer(object):
             if weapon.name in ('weapon_eli', 'weapon_fangs', 'weapon_flower', 'weapon_golden_lute'):
                 continue
             # Skip non-special daggers
-            if weapon.isDagger and weapon.name not in ('weapon_dagger_electric', 'weapon_dagger_jeweled', 'weapon_dagger_frost', 'weapon_dagger_phasing'):
+            if weapon.isDagger and weapon.name not in ( 'weapon_dagger_electric', 'weapon_dagger_jeweled',
+                                                        'weapon_dagger_frost', 'weapon_dagger_phasing'):
                 continue
             # Skip whips because fuck whips
             if weapon.isWhip:
@@ -107,7 +110,8 @@ class BuildRandomizer(object):
             if weapon.isBlood or weapon.isGold or weapon.isGlass:
                 continue
             # Skip base weapon types
-            if not (weapon.isDagger or weapon.isBlood or weapon.isGold or weapon.isTitanium or weapon.isObsidian or weapon.isGlass or weapon.isRifle or weapon.isBlunderbuss):
+            if not (weapon.isDagger or weapon.isBlood or weapon.isGold or weapon.isTitanium
+                    or weapon.isObsidian or weapon.isGlass or weapon.isRifle or weapon.isBlunderbuss):
                 continue
             weapons.append(weapon)
         self.build.append(self.rng.choice(weapons))
@@ -121,6 +125,9 @@ class ItemRebalancer(object):
     def process(self):
         all_items = self.ndxml.items.filter()
         for item in all_items:
+
+            ### General removals
+
             # Remove spells & rings altogether
             if item.slot in ('spell', 'ring'):
                 self.remove_item_chances(item)
@@ -130,28 +137,46 @@ class ItemRebalancer(object):
             # Remove other items that are too powerful
             if item.name in (   'feet_boots_leaping', 'feet_boots_lunging', 'feet_boots_pain',
                                 'food_magic_3', 'food_magic_4', 'food_magic_cookies',
-                                'head_miners_cap', 'head_blast_helm', 'head_glass_jaw',
-                                'bag_holding', 'misc_map', 'misc_compass',
-                                'charm_bomb', 'charm_grenade', 'charm_strength',
+                                'head_miners_cap', 'head_monocle', 'head_glass_jaw',
+                                'bag_holding', 'misc_map', 'misc_compass', 'charm_strength',
                                 'scroll_enchant_weapon', 'scroll_need',
-                                'shovel_courage', 'shovel_strength',
-                                'torch_walls'):
+                                'shovel_courage', 'torch_walls'):
                 self.remove_item_chances(item)
-            # Remove move-attack weapons
+
+            # Remove move-attack weapons, special daggers, and guns
             if item.isAxe or item.isCat or item.isRapier:
                 self.remove_item_chances(item)
-            # Remove weapons besides blood and gold, except from locked shops
-            if item.isWeapon and not (item.isBlood or item.isGold):
+            elif item.name in ( 'weapon_dagger_electric', 'weapon_dagger_jeweled',
+                                'weapon_dagger_frost', 'weapon_dagger_phasing'):
+                self.remove_item_chances(item)
+            elif item.isRifle or item.isBlunderbuss:
+                self.remove_item_chances(item)
+            # Restrict all other weapons besides blood and gold to locked shops
+            elif item.isWeapon and not (item.isBlood or item.isGold):
+                self.restrict_to_locked_shops(item)
+
+            # Remove headgear, armor, and footwear from chests and crates
+            if item.slot in ('head', 'body', 'feet'):
                 item.chestChance = None
-                item.shopChance = None
+                item.lockedChestChance = None
+
+            # Restrict damage-up equipment to locked shops
+            if item.name in (   'feet_boots_strength', 'head_sunglasses', 'head_spiked_ears',
+                                'shovel_strength', 'torch_strength'):
+                self.restrict_to_locked_shops(item, locked_shop_chance='100')
+
+            # Restrict charms and other 'misc' items to locked shops
+            if item.slot == 'misc':
+                self.restrict_to_locked_shops(item)
+
             # Remove EVERYTHING from the boss chests
             self.remove_from_boss_chests(item)
-            # Add back armor to the boss chests (black)
+            # Restrict armor to the boss chests (black)
             if item.slot == 'body' and item.name not in ('armor_leather', 'armor_platemail_dorian', 'armor_gi'):
-                self.add_to_boss_chests(item)
-            # Add back bomb-related items to the boss chests (red)
+                self.restrict_to_boss_chests(item)
+            # Restrict bomb-related items to the boss chests (red)
             if item.name in ('head_blast_helm', 'charm_grenade', 'charm_bomb', 'bomb_3'):
-                self.add_to_boss_chests(item)
+                self.restrict_to_boss_chests(item)
             # Add back scrolls and tomes to the boss chests (purple)
             if item.isScroll and item.name not in ( 'scroll_fear', 'scroll_gigantism', 'scroll_riches',
                                                     'scroll_enchant_weapon', 'scroll_need', 'scroll_pulse',
@@ -165,6 +190,12 @@ class ItemRebalancer(object):
         item.lockedShopChance = None
         item.urnChance = None
 
+    def restrict_to_locked_shops(self, item, locked_shop_chance=None):
+        if locked_shop_chance is None:
+            locked_shop_chance = item.lockedShopChance
+        self.remove_item_chances(item)
+        item.lockedShopChance = locked_shop_chance
+
     def add_to_boss_chests(self, item):
         chances = ItemChances(item.chestChance)
         chances.set_chance(4, '1')
@@ -175,6 +206,14 @@ class ItemRebalancer(object):
             chances = ItemChances(item.chestChance)
             chances.remove_chances_past(4)
             item.chestChance = str(chances)
+
+    def restrict_to_boss_chests(self, item):
+        self.remove_item_chances(item)
+        self.add_to_boss_chests(item)
+
+    def print_item_chances(self, item):
+        print('{}: chestChance={}, shopChance={}, lockedChestChance={}, lockedShopChance={}, urnChance={}'
+            .format(item.name, item.chestChance, item.shopChance, item.lockedChestChance, item.lockedShopChance, item.urnChance))
 
 
 class ItemChances(object):

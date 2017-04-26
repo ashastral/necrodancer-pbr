@@ -296,14 +296,14 @@
 
 	<!--
 	*** ALGORITHM FOR DETERMINING PRIORITY VALUES ***
-	
+
 	1 for not massive, 2 for massive, 3 for miniboss, 4 for boss
 	00 to 99 for damage
 	00 to 99 for health
 	0 to 9 for speed
 	00 to 99 for coins
 	So a massive enemy with 90 damage, 80 health, 7 speed and 60 coins would be: 29080760
-	
+
 	Some enemies have their values set manually, for other gameplay reasons, like exploding mushrooms, red dragons, and the conga line zombies.
 	-->
 	<enemies>
@@ -2555,6 +2555,6 @@
 	</characters>
 
 	<modes>
-		<hard extraEnemiesPerRoom="1" extraMinibossesPerExit="1" upgradeStairLockingMinibosses="false" minibossesPerNonExit="0" disableTrapdoors="true" harderBosses="true" sarcSpawnTimer="8" sarcsPerRoom="1" spawnHelperItems="false" />
+		<hard extraEnemiesPerRoom="0" extraMinibossesPerExit="0" upgradeStairLockingMinibosses="false" minibossesPerNonExit="0" disableTrapdoors="true" harderBosses="false" sarcSpawnTimer="8" sarcsPerRoom="0" spawnHelperItems="false" />
 	</modes>
 </necrodancer>

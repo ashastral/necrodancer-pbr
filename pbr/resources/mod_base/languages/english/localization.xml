@@ -1,0 +1,7 @@
+<strings>
+    <string id="13000" xOff="0" yOff="0" fontPixelHeight="6" english="MODES" image="localization/13000.png" selectedImage="localization/13000.png"/>
+	<string id="13001" xOff="0" yOff="0" fontPixelHeight="6" english="EXTRA" image="localization/13001.png" selectedImage="localization/13001.png"/>
+    
+    <string id="13011" xOff="0" yOff="0" fontPixelHeight="6" english="HARD MODE" image="localization/13011.png" selectedImage="localization/13011.png"/>
+	<string id="13012" xOff="0" yOff="0" fontPixelHeight="6" english="(SEEDED)" image="localization/13012.png" selectedImage="localization/13012.png"/>
+</strings>

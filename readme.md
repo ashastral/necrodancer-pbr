@@ -10,7 +10,18 @@ As seen in CoNDOR Season 5, many races are being decided by luck instead of skil
 
 ## Things to Know
 
-Players start with the following equipment:
+Players use the Hard Mode (Seeded) stairs to race, using the same seed as the one given to PBR.  Hard Mode only removes trapdoors when this mod is active.
+
+The following actions are banned in this mod:
+
+* **Killing the main shopkeeper.**  This must not happen due to the potential to cause seed variance.
+* **Killing secret shopkeepers.**  If this is done by accident, the racer must not take any unpaid-for items from the shop.
+* **Activating shrines.**  This must not happen if the shrine has persistent effects; for other shrines like Luck / Pain / Uncertainty, the racer must not take any items from it.
+* **Bombing shrines.**  If this occurs by accident, the racer must not take the item dropped.
+
+Shopkeeper and shrine sprites have a text warning overlaid to remind racers of these bans.
+
+## Starting Equipment
 
 * **Weapon:** any titanium or obsidian weapon (except dagger and whip), or any special dagger or gun
 * **Shovel:** any except basic
@@ -23,7 +34,7 @@ Players start with the following equipment:
 * **HUD:** either backpack or holster, 50/50
 * **Misc / charms:** 10% chance of each pickup except potion, bomb charm, grenade charm, and lucky charm
 
-Item chances are modified from the base game as follows:
+## Item Chances
 
 * The following items are removed from the item pool:
     - **Weapons:** all cats, rapiers, axes, special daggers, and guns
@@ -43,11 +54,12 @@ Item chances are modified from the base game as follows:
     - **Headgear:** sunglasses and spiked ears
     - **Footwear:** boots of strength
     - **Torches:** torch of strength
-* The following items are restricted to Zone 2+ boss chests:
+* The following items are restricted to Zone 2+ boss chests (and are the **only** items you will find in such chests):
     - **Red:** blast helm, grenade charm, bomb charm, 3 bombs
     - **Black:** all armor except karate gi and leather
+    - **Purple:** *(same as all other purple chests - scrolls and tomes)*
 
-Some basic meta you should know as a racer:
+## Basic Meta
 
 * Zone 1 boss chests are generally unfavorable compared to zone 2 and onward.  Black will contain a blood or gold weapon, red will not contain bomb-related items.  This is an artifact of the way item tiers work in the game and can't be "fixed" by modding without introducing these items to the zone 2+ level 3 shops and chests.
 * If you started with a holster, consider checking black chests on the normal floors for a blood or gold weapon to provide gold quick-kills or blood healing.  Even without the holster, switching might be viable if you started with a damage-up item.  (Don't expect to find any axes to complement your ring of war, though.)

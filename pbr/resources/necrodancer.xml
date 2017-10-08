@@ -33,12 +33,12 @@
 		<food_4 flyaway="|339|HAM|" hint="|528|RESTORE 4 HEALTH|" slot="action" coinCost="65" diamondCost="6" isFood="True" data="8" chestChance="0|0|25|50" shopChance="0|10|50|75|50|25|10" diamondDealable="3">food_4.png</food_4>
 		<food_carrot flyaway="|10002|CARROT|" hint="|10502|RESTORE 1 HEALTH, GLIMPSE MAP|" slot="action" coinCost="20" diamondCost="1" isFood="True" data="2" temporaryMapSight="True" chestChance="12|50|25|0" shopChance="25|100|50|25|10" diamondDealable="2" imageW="20" imageH="19" set="dlc">food_carrot.png</food_carrot>
 		<food_cookies flyaway="|10003|COOKIES|" hint="|10503|RESTORE 0.5 HEALTH|" slot="action" coinCost="50" isStackable="True" quantity="6" diamondCost="3" isFood="True" data="1" chestChance="0|12|50|25|0" shopChance="0|25|100|50|25|10" diamondDealable="3" imageW="18" imageH="18" set="dlc">food_cookies.png</food_cookies>
-		<food_magic_1 flyaway="|?|MAGIC APPLE|" hint="|?|OVEREAT FOR HEARTS|" slot="action" coinCost="50" lockedChestChance="80" lockedShopChance="80" isFood="True" isMagicFood="True" data="2" unlocked="true" imageW="18" imageH="20" set="dlc">food_magic_1.png</food_magic_1>
-		<food_magic_2 flyaway="|?|MAGIC CHEESE|" hint="|?|OVEREAT FOR HEARTS|" slot="action" coinCost="100" lockedChestChance="40" lockedShopChance="40" isFood="True" isMagicFood="True" data="4" unlocked="true" imageW="24" imageH="24" set="dlc">food_magic_2.png</food_magic_2>
-		<food_magic_3 flyaway="|?|MAGIC DRUMSTICK|" hint="|?|OVEREAT FOR HEARTS|" slot="action" coinCost="150" lockedChestChance="20" lockedShopChance="20" isFood="True" isMagicFood="True" data="6" unlocked="true" imageW="23" imageH="21" set="dlc">food_magic_3.png</food_magic_3>
-		<food_magic_4 flyaway="|?|MAGIC HAM|" hint="|?|OVEREAT FOR HEARTS|" slot="action" coinCost="200" lockedChestChance="10" lockedShopChance="10" isFood="True" isMagicFood="True" data="8" unlocked="true" imageW="23" imageH="23" set="dlc">food_magic_4.png</food_magic_4>
-		<food_magic_carrot flyaway="|?|MAGIC CARROT|" hint="|?|OVEREAT FOR HEARTS|" slot="action" coinCost="75" lockedChestChance="60" lockedShopChance="60" isFood="True" isMagicFood="True" data="2" temporaryMapSight="True" unlocked="true" imageW="24" imageH="23" set="dlc">food_magic_carrot.png</food_magic_carrot>
-		<food_magic_cookies flyaway="|?|MAGIC COOKIES|" hint="|?|OVEREAT FOR HEARTS|" slot="action" coinCost="200" lockedChestChance="10" lockedShopChance="10" isStackable="True" quantity="6" isFood="True" isMagicFood="True" data="1" unlocked="true" imageW="20" imageH="20" set="dlc">food_magic_cookies.png</food_magic_cookies>
+		<food_magic_1 flyaway="|10058|MAGIC APPLE|" hint="|10537|OVEREAT FOR HEARTS|" slot="action" coinCost="50" lockedChestChance="80" lockedShopChance="80" isFood="True" isMagicFood="True" data="2" unlocked="true" imageW="18" imageH="20" set="dlc">food_magic_1.png</food_magic_1>
+		<food_magic_2 flyaway="|10059|MAGIC CHEESE|" hint="|10537|OVEREAT FOR HEARTS|" slot="action" coinCost="100" lockedChestChance="40" lockedShopChance="40" isFood="True" isMagicFood="True" data="4" unlocked="true" imageW="24" imageH="24" set="dlc">food_magic_2.png</food_magic_2>
+		<food_magic_3 flyaway="|10060|MAGIC DRUMSTICK|" hint="|10537|OVEREAT FOR HEARTS|" slot="action" coinCost="150" lockedChestChance="20" lockedShopChance="20" isFood="True" isMagicFood="True" data="6" unlocked="true" imageW="23" imageH="21" set="dlc">food_magic_3.png</food_magic_3>
+		<food_magic_4 flyaway="|10061|MAGIC HAM|" hint="|10537|OVEREAT FOR HEARTS|" slot="action" coinCost="200" lockedChestChance="10" lockedShopChance="10" isFood="True" isMagicFood="True" data="8" unlocked="true" imageW="23" imageH="23" set="dlc">food_magic_4.png</food_magic_4>
+		<food_magic_carrot flyaway="|10062|MAGIC CARROT|" hint="|10537|OVEREAT FOR HEARTS|" slot="action" coinCost="75" lockedChestChance="60" lockedShopChance="60" isFood="True" isMagicFood="True" data="2" temporaryMapSight="True" unlocked="true" imageW="24" imageH="23" set="dlc">food_magic_carrot.png</food_magic_carrot>
+		<food_magic_cookies flyaway="|10063|MAGIC COOKIES|" hint="|10537|OVEREAT FOR HEARTS|" slot="action" coinCost="200" lockedChestChance="2" lockedShopChance="2" isStackable="True" quantity="6" isFood="True" isMagicFood="True" data="1" unlocked="true" imageW="20" imageH="20" set="dlc">food_magic_cookies.png</food_magic_cookies>
 		<holy_water flyaway="|340|HOLY WATER|" hint="|529|USE NEAR ENEMIES|" slot="action" coinCost="100" diamondCost="5" chestChance="10|25" shopChance="15" diamondDealable="4">holy_water.png</holy_water>
 		<lord_crown levelEditor="False" flyaway="|341|LORD CROWN|" hint="|530|GIGANTISM|" slot="action" coinCost="100" diamondDealable="1">lord_crown.png</lord_crown>
         <bomb flyaway="|342|BOMB|" hint="" slot="bomb" numFrames="5" coinCost="20" chestChance="10" shopChance="10" diamondDealable="1" unlocked="true">bomb.png</bomb>
@@ -136,7 +136,7 @@
 		<ring_becoming flyaway="|406|RING OF BECOMING|" hint="???" slot="ring" coinCost="100" diamondCost="5" lockedChestChance="20" shopChance="15" lockedShopChance="5" chestChance="1" diamondDealable="5" imageW="22" imageH="19">ring_becoming.png</ring_becoming>
 		<ring_wonder levelEditor="False" flyaway="|407|RING OF WONDER|" hint="|574|+ ALL|" slot="ring" coinCost="200" imageW="22" imageH="21">ring_wonder.png</ring_wonder>
         <ring_pain flyaway="|10008|RING OF PAIN|" hint="|10508|DO DAMAGE AS YOU ATTACK|" slot="ring" coinCost="50" lockedChestChance="100" lockedShopChance="100" diamondCost="3" diamondDealable="2" set="dlc">ring_pain.png</ring_pain>
-		<ring_frost flyaway="|10009|RING OF FROST|" hint="|10509|FREEZE ENEMIES, KILL FROZEN ENEMIES|" slot="ring" coinCost="40" diamondCost="1" chestChance="6" shopChance="20" diamondDealable="2" isFrost="True" set="dlc">ring_frost.png</ring_frost>
+		<ring_frost flyaway="|10009|RING OF FROST|" hint="|10509|FREEZE ENEMIES, KILL FROZEN ENEMIES|" slot="ring" coinCost="200" diamondCost="1" chestChance="1" lockedShopChance="5" diamondDealable="2" isFrost="True" set="dlc">ring_frost.png</ring_frost>
 		<scroll_earthquake flyaway="|408|EARTHQUAKE SCROLL|" hint="|575|DAMAGE NON-FLYING ENEMIES|" slot="action" coinCost="20" diamondCost="3" isScroll="True" spell="spell_earthquake" chestChance="1" shopChance="15" diamondDealable="1">scroll_brown.png</scroll_earthquake>
 		<scroll_fear flyaway="|409|FEAR SCROLL|" hint="|576|SCARE ENEMIES AWAY|" slot="action" coinCost="1" diamondCost="1" isScroll="True" spell="spell_fear" chestChance="1" shopChance="10" diamondDealable="1">scroll_black.png</scroll_fear>
 		<scroll_fireball flyaway="|410|FIREBALL SCROLL|" hint="|577|HORIZONTAL FIRE BLAST|" slot="action" coinCost="5" isScroll="True" spell="spell_fireball" chestChance="2" shopChance="5" unlocked="true" diamondDealable="1">scroll_red.png</scroll_fireball>
@@ -146,12 +146,12 @@
 		<scroll_shield flyaway="|414|SHIELD SCROLL|" hint="|580|TEMPORARY SHIELD|" slot="action" coinCost="25" diamondCost="1" isScroll="True" spell="spell_shield" chestChance="2" shopChance="10" unlocked="true" diamondDealable="1">scroll_magenta.png</scroll_shield>
 		<scroll_enchant_weapon flyaway="|415|ENCHANT WEAPON SCROLL|" hint="|581|ENCHANT WEAPON|" slot="action" coinCost="40" diamondCost="2" isScroll="True" spell="spell_enchant_weapon" chestChance="1" shopChance="10" diamondDealable="1">scroll_orange.png</scroll_enchant_weapon>
 		<scroll_need flyaway="|416|SCROLL OF NEED|" hint="|582|GIVES WHAT YOU NEED|" slot="action" coinCost="50" diamondCost="4" isScroll="True" spell="spell_need" chestChance="1" shopChance="10" diamondDealable="2">scroll_green.png</scroll_need>
-		<scroll_pulse flyaway="|?|PULSE SCROLL|" hint="???" slot="action" coinCost="5" isScroll="True" spell="spell_pulse" chestChance="2" shopChance="5" unlocked="true" diamondDealable="1">scroll_pulse.png</scroll_pulse>
+		<scroll_pulse flyaway="|10064|PULSE SCROLL|" hint="|10538|X-SHAPED ATTACK|" slot="action" coinCost="5" isScroll="True" spell="spell_pulse" chestChance="2" shopChance="5" unlocked="true" diamondDealable="1" set="dlc">scroll_pulse.png</scroll_pulse>
 		<scroll_transmute flyaway="|417|TRANSMUTE SCROLL|" hint="|583|TRANSFORMS ALL NON-EQUIPPED ITEMS|" slot="action" coinCost="50" diamondCost="3" isScroll="True" spell="spell_transmute" chestChance="1" shopChance="10" diamondDealable="1">scroll_transmute.png</scroll_transmute>
 		<shovel_crystal flyaway="|418|CRYSTAL SHOVEL|" hint="|584|+2 DIG|" slotPriority="4" slot="shovel" isShovel="True" data="3" coinCost="250" diamondDealable="5" urnChance="5">shovel_crystal.png</shovel_crystal>
-		<shovel_battle flyaway="|10046|BATTLE SHOVEL|" hint="|10525|+1 DIG, INF DMG AFTER DIG|" slotPriority="0" slot="shovel" diamondCost="3" isShovel="True" numFrames="2" imageW="28" imageH="28" data="2" coinCost="80" chestChance="20" lockedChestChance="20" shopChance="50" diamondDealable="4" isTemp="true">shovel_battle.png</shovel_battle>
+		<shovel_battle flyaway="|10046|BATTLE SHOVEL|" hint="|10525|+1 DIG, INF DMG AFTER DIG|" slotPriority="0" slot="shovel" diamondCost="3" isShovel="True" numFrames="2" imageW="28" imageH="28" data="2" coinCost="80" chestChance="10" lockedChestChance="20" shopChance="50" diamondDealable="4" isTemp="true">shovel_battle.png</shovel_battle>
 		<shovel_titanium flyaway="|419|TITANIUM SHOVEL|" hint="|585|+1 DIG|" slotPriority="3" slot="shovel" isShovel="True" data="2" coinCost="40" lockedChestChance="100|100|100|0" shopChance="100" unlocked="true" diamondDealable="3">shovel_titanium.png</shovel_titanium>
-		<shovel_blood flyaway="|420|BLOOD SHOVEL|" hint="|586|DIG ANYTHING, BUT TAKE DAMAGE|" slotPriority="0" slot="shovel" diamondCost="3" isShovel="True" data="10" coinCost="80" lockedChestChance="50|50|50|1" shopChance="50" diamondDealable="3">shovel_blood.png</shovel_blood>
+		<shovel_blood flyaway="|420|BLOOD SHOVEL|" hint="|586|DIG ANYTHING, BUT TAKE DAMAGE|" slotPriority="0" slot="shovel" diamondCost="3" isShovel="True" data="1" coinCost="80" lockedChestChance="50|50|50|1" shopChance="50" diamondDealable="3">shovel_blood.png</shovel_blood>
         <shovel_obsidian flyaway="|421|OBSIDIAN SHOVEL|" hint="|587|MULTIPLIER-BASED DIG|" slotPriority="3" slot="shovel" isShovel="True" numFrames="3" imageW="26" imageH="26" coinCost="60" diamondCost="4" lockedChestChance="20|20|20|0" shopChance="25" diamondDealable="4">shovel_obsidian.png</shovel_obsidian>
         <shovel_glass flyaway="|422|GLASS SHOVEL|" hint="|588|+2 DIG, BREAKABLE|" slotPriority="3" slot="shovel" isShovel="True" data="4" coinCost="20" diamondCost="4" lockedChestChance="20" shopChance="5" diamondDealable="4">shovel_glass.png</shovel_glass>
 		<shovel_shard flyaway="|423|GLASS SHARD|" hint="|423|GLASS SHARD|" slotPriority="1" slot="shovel" isShovel="True" data="1">shovel_shard.png</shovel_shard>
@@ -161,7 +161,7 @@
 		<pickaxe flyaway="|425|PICKAXE|" hint="|589|SLOW, STRONG DIG|" slotPriority="0" slot="shovel" isShovel="True" data="3" coinCost="50" diamondCost="3" chestChance="10|10|10|20" shopChance="40" diamondDealable="2">pickaxe.png</pickaxe>
 		<spell_earth flyaway="|10012|EARTH SPELL|" isSpell="True" hint="|10512|RAISE WALLS|" cooldown="10" slot="spell" imageW="21" imageH="29" coinCost="50" diamondCost="1" chestChance="5" shopChance="5" unlocked="true" diamondDealable="4" set="dlc">spell_earth.png</spell_earth>
         <spell_fireball flyaway="|426|FIREBALL SPELL|" hint="|590|HORIZONTAL FIRE BLAST|" isSpell="True" cooldown="10" slot="spell" coinCost="50" diamondCost="1" chestChance="10" shopChance="5" unlocked="true" diamondDealable="4">spell_fireball.png</spell_fireball>
-		<spell_pulse flyaway="|?|PULSE SPELL|" hint="???" isSpell="True" cooldown="10" slot="spell" coinCost="50" diamondCost="1" chestChance="10" shopChance="5" unlocked="true" diamondDealable="4" set="dlc" isTemp="true">spell_pulse.png</spell_pulse>
+		<spell_pulse flyaway="|10065|PULSE SPELL|" hint="|10538|X-SHAPED ATTACK|" isSpell="True" cooldown="10" slot="spell" coinCost="50" diamondCost="1" chestChance="10" shopChance="5" unlocked="true" diamondDealable="4" imageW="25" imageH="25" set="dlc">spell_pulse.png</spell_pulse>
 		<spell_freeze_enemies flyaway="|427|FREEZE ENEMIES SPELL|" hint="|591|FREEZE ENEMIES|" isSpell="True" cooldown="15" slot="spell" imageH="27" coinCost="125" diamondCost="3" chestChance="5" shopChance="5" diamondDealable="5">spell_freeze_enemies.png</spell_freeze_enemies>
 		<spell_heal flyaway="|428|HEAL SPELL|" isSpell="True" hint="|592|RESTORE 0.5 HEALTH|" cooldown="15" slot="spell" imageW="25" coinCost="150" diamondCost="5" chestChance="8" shopChance="5" diamondDealable="6">spell_heal.png</spell_heal>
 		<spell_bomb flyaway="|429|BOMB SPELL|" isSpell="True" hint="|593|BOMB SPELL|" cooldown="25" slot="spell" imageW="26" coinCost="150" diamondCost="6" chestChance="8" shopChance="5" diamondDealable="3">spell_bomb.png</spell_bomb>
@@ -170,17 +170,17 @@
 		<spell_charm levelEditor="False" flyaway="|432|CHARM SPELL|" isSpell="True" hint="|596|CHARM NEARBY ENEMIES|" cooldown="10" slot="spell" coinCost="100" imageW="27" imageH="26">spell_charm.png</spell_charm>
 		<spell_transform levelEditor="False" flyaway="|10013|TRANSFORM SPELL|" isSpell="True" hint="|10513|TOGGLE BAT FORM|" cooldown="0" slot="spell" unlocked="true" imageW="26" imageH="26" set="dlc">spell_transform.png</spell_transform>
 		<throwing_stars flyaway="|10014|THROWING STARS|" hint="|10514|PROJECTILE|" slot="action" coinCost="20" isStackable="True" quantity="3" diamondCost="3" chestChance="10|25" shopChance="15" diamondDealable="3" imageW="11" imageH="11" set="dlc">throwing_star.png</throwing_stars>
-		<familiar_dove flyaway="|10015|DOVE FAMILIAR|" hint="|10515|TELEPORT ENEMIES|" slot="action" coinCost="20" diamondCost="2" isFamiliar="true" chestChance="25" shopChance="25" diamondDealable="2" imageW="17" imageH="18" set="dlc">token_dove.png</familiar_dove>
-		<familiar_ice_spirit flyaway="|10016|ICE SPIRIT FAMILIAR|" hint="|10516|FREEZE ENEMIES|" slot="action" coinCost="20" diamondCost="2" isFamiliar="true" imageW="17" imageH="18" chestChance="50" shopChance="50" diamondDealable="2" set="dlc">token_ice_spirit.png</familiar_ice_spirit>
-		<familiar_shopkeeper flyaway="|10017|SHOPKEEPER FAMILIAR|" hint="|10526|GOLD PILES HEAL|" slot="action" coinCost="20" diamondCost="2" isFamiliar="true" imageW="17" imageH="18" chestChance="50" shopChance="50" diamondDealable="2" set="dlc">token_shopkeeper.png</familiar_shopkeeper>
-		<familiar_shield flyaway="|10018|SHIELD FAMILIAR|" hint="|10517|BLOCK ENEMIES|" slot="action" coinCost="20" diamondCost="2" isFamiliar="true" imageW="17" imageH="18" diamondDealable="2" set="dlc" isTemp="true">token_shield.png</familiar_shield>
-		<familiar_rat flyaway="|10019|RAT FAMILIAR|" hint="|10527|DO 1 DMG, PIERCING|" slot="action" coinCost="20" diamondCost="2" isFamiliar="true" chestChance="50" shopChance="50" imageW="17" imageH="18" diamondDealable="2" set="dlc">token_rat.png</familiar_rat>
-		<tome_earth flyaway="|?|EARTH TOME|" hint="|?|CAST EARTH SPELL|" slot="action" coinCost="5" diamondCost="3" isStackable="True" quantity="3" isScroll="True" imageW="17" imageH="25" quantityYOff="5" spell="spell_earth" useGreater="false" chestChance="2" shopChance="5" diamondDealable="1" set="dlc">tome_earth.png</tome_earth>
-		<tome_fireball flyaway="|?|FIREBALL TOME|" hint="|?|CAST FIREBALL SPELL|" slot="action" coinCost="5" diamondCost="3" isStackable="True" quantity="3" isScroll="True" imageW="17" imageH="25" quantityYOff="5" spell="spell_fireball" useGreater="false" chestChance="2" shopChance="5" diamondDealable="1" set="dlc">tome_fireball.png</tome_fireball>
-		<tome_freeze flyaway="|?|FREEZE TOME|" hint="|?|CAST FREEZE SPELL|" slot="action" coinCost="5" diamondCost="3" isStackable="True" quantity="2" isScroll="True" imageW="17" imageH="25" quantityYOff="5" spell="spell_freeze_enemies" useGreater="false" chestChance="2" shopChance="5" diamondDealable="1" set="dlc">tome_freeze.png</tome_freeze>
-		<tome_pulse flyaway="|?|PULSE TOME|" hint="???" slot="action" coinCost="5" diamondCost="3" isStackable="True" quantity="3" isScroll="True" imageW="17" imageH="25" quantityYOff="5" spell="spell_pulse" useGreater="false" chestChance="2" shopChance="5" diamondDealable="1" set="dlc">tome_pulse.png</tome_pulse>
-		<tome_shield flyaway="|?|FREEZE TOME|" hint="|?|CAST SHIELD SPELL|" slot="action" coinCost="5" diamondCost="3" isStackable="True" quantity="2" isScroll="True" imageW="17" imageH="25" quantityYOff="5" spell="spell_shield" useGreater="false" chestChance="2" shopChance="5" diamondDealable="1" set="dlc">tome_shield.png</tome_shield>
-		<tome_transmute flyaway="|?|TRANSMUTE TOME|" hint="|?|CAST TRANSMUTE SPELL|" slot="action" coinCost="5" diamondCost="3" isStackable="True" quantity="2" isScroll="True" imageW="17" imageH="25" quantityYOff="5" spell="spell_transmute" useGreater="false" chestChance="2" shopChance="5" diamondDealable="1" set="dlc">tome_transmute.png</tome_transmute>
+		<familiar_dove flyaway="|10015|DOVE FAMILIAR|" hint="|10515|TELEPORT ENEMIES|" slot="action" coinCost="50" diamondCost="2" isFamiliar="true" chestChance="5" shopChance="10" diamondDealable="2" imageW="17" imageH="18" set="dlc">token_dove.png</familiar_dove>
+		<familiar_ice_spirit flyaway="|10016|ICE SPIRIT FAMILIAR|" hint="|10516|FREEZE ENEMIES|" slot="action" coinCost="50" diamondCost="2" isFamiliar="true" imageW="17" imageH="18" chestChance="5" shopChance="10" diamondDealable="2" set="dlc">token_ice_spirit.png</familiar_ice_spirit>
+		<familiar_shopkeeper flyaway="|10017|SHOPKEEPER FAMILIAR|" hint="|10526|GOLD PILES HEAL|" slot="action" coinCost="20" diamondCost="2" isFamiliar="true" imageW="17" imageH="18" chestChance="5" shopChance="10" diamondDealable="2" set="dlc">token_shopkeeper.png</familiar_shopkeeper>
+		<familiar_shield flyaway="|10018|SHIELD FAMILIAR|" hint="|10517|BLOCK ENEMIES|" slot="action" coinCost="50" diamondCost="2" isFamiliar="true" imageW="17" imageH="18" diamondDealable="2" set="dlc" isTemp="true">token_shield.png</familiar_shield>
+		<familiar_rat flyaway="|10019|RAT FAMILIAR|" hint="|10527|DO 1 DMG, PIERCING|" slot="action" coinCost="50" diamondCost="2" isFamiliar="true" chestChance="5" shopChance="10" imageW="17" imageH="18" diamondDealable="2" set="dlc">token_rat.png</familiar_rat>
+		<tome_earth flyaway="|10066|EARTH TOME|" hint="|10539|CAST EARTH SPELL|" slot="action" coinCost="5" diamondCost="3" isStackable="True" quantity="3" isScroll="True" imageW="17" imageH="25" quantityYOff="5" spell="spell_earth" useGreater="false" chestChance="4" shopChance="5" diamondDealable="1" set="dlc">tome_earth.png</tome_earth>
+		<tome_fireball flyaway="|10067|FIREBALL TOME|" hint="|10540|CAST FIREBALL SPELL|" slot="action" coinCost="5" diamondCost="3" isStackable="True" quantity="3" isScroll="True" imageW="17" imageH="25" quantityYOff="5" spell="spell_fireball" useGreater="false" chestChance="4" shopChance="5" diamondDealable="1" set="dlc">tome_fireball.png</tome_fireball>
+		<tome_freeze flyaway="|10068|FREEZE TOME|" hint="|10541|CAST FREEZE SPELL|" slot="action" coinCost="5" diamondCost="3" isStackable="True" quantity="2" isScroll="True" imageW="17" imageH="25" quantityYOff="5" spell="spell_freeze_enemies" useGreater="false" chestChance="4" shopChance="5" diamondDealable="1" set="dlc">tome_freeze.png</tome_freeze>
+		<tome_pulse flyaway="|10069|PULSE TOME|" hint="|10542|CAST PULSE SPELL|" slot="action" coinCost="5" diamondCost="3" isStackable="True" quantity="3" isScroll="True" imageW="17" imageH="25" quantityYOff="5" spell="spell_pulse" useGreater="false" chestChance="4" shopChance="5" diamondDealable="1" set="dlc">tome_pulse.png</tome_pulse>
+		<tome_shield flyaway="|10070|SHIELD TOME|" hint="|10543|CAST SHIELD SPELL|" slot="action" coinCost="5" diamondCost="3" isStackable="True" quantity="2" isScroll="True" imageW="17" imageH="25" quantityYOff="5" spell="spell_shield" useGreater="false" chestChance="4" shopChance="5" diamondDealable="1" set="dlc">tome_shield.png</tome_shield>
+		<tome_transmute flyaway="|10071|TRANSMUTE TOME|" hint="|10544|CAST TRANSMUTE SPELL|" slot="action" coinCost="5" diamondCost="3" isStackable="True" quantity="2" isScroll="True" imageW="17" imageH="25" quantityYOff="5" spell="spell_transmute" useGreater="false" chestChance="4" shopChance="5" diamondDealable="1" set="dlc">tome_transmute.png</tome_transmute>
 		<torch_1 flyaway="|433|TORCH|" hint="|597|+1 VISION RADIUS|" slot="torch" coinCost="3" isTorch="True" data="1" chestChance="100|60|5|0" shopChance="150|50|25|0" unlocked="true" diamondDealable="1">torch_1.png</torch_1>
 		<torch_2 flyaway="|434|BRIGHT TORCH|" hint="|598|+2 VISION RADIUS|" slot="torch" coinCost="15" diamondCost="1" isTorch="True" data="2" chestChance="1|45|90|25|0" shopChance="30|100|75|50|25|0" diamondDealable="2">torch_2.png</torch_2>
 		<torch_3 flyaway="|435|LUMINOUS TORCH|" hint="|599|+3 VISION RADIUS|" slot="torch" coinCost="40" diamondCost="5" isTorch="True" data="3" chestChance="0|1|40|100" shopChance="1|25|75|100" diamondDealable="3">torch_3.png</torch_3>
@@ -263,23 +263,23 @@
 		<weapon_blunderbuss sound="blunderbussShoot" hint="|622|CONICAL BLAST, NEEDS RELOADING, PIERCING|" slot="weapon" playerKnockback="True" screenFlash="True" screenShake="True" coinCost="350" flyaway="|506|BLUNDERBUSS|" isWeapon="True" isBlunderbuss="True" isPiercing="True" chestChance="0|0|1|2" shopChance="0|0|1" lockedShopChance="25" unlocked="true" urnChance="20" numFrames="2" imageW="25" imageH="36" yOff="-12">weapon_blunderbuss.png</weapon_blunderbuss>
 		<weapon_rifle sound="rifleShoot" hint="|623|RANGED ATTACK, NEEDS LOADING, PIERCING|" slot="weapon" playerKnockback="True" coinCost="400" flyaway="|507|RIFLE|" diamondCost="9" isWeapon="True" isRifle="True" isPiercing="True" chestChance="0|0|1|2" shopChance="0|0|1" lockedShopChance="25" urnChance="20" numFrames="2" imageW="25" imageH="37" yOff="-10">weapon_rifle.png</weapon_rifle>
         <weapon_axe slot="weapon" hint="|10519|LUNGE FOR WIDE ATTACK|" coinCost="60" flyaway="|10020|AXE|" diamondCost="8" isWeapon="True" isAxe="True" chestChance="20|40|5|0" shopChance="100|50|25|0" diamondDealable="2" imageW="26" imageH="21" set="dlc">weapon_axe.png</weapon_axe>
-        <weapon_titanium_axe slot="weapon" hint="|605|2 DAMAGE|" coinCost="120" flyaway="|10021|TITANIUM AXE|" isWeapon="True" isAxe="True" isTitanium="True" chestChance="1|3|10|25" shopChance="0|30|40" diamondDealable="4" imageW="26" imageH="21" set="dlc">weapon_axe_titanium.png</weapon_titanium_axe>
-        <weapon_obsidian_axe slot="weapon" hint="|606|MULTIPLIER-BASED DAMAGE|" coinCost="350" flyaway="|10022|OBSIDIAN AXE|" isWeapon="True" isAxe="True" isObsidian="True" numFrames="3" chestChance="1|1|10|20" shopChance="0" lockedShopChance="100" urnChance="10" imageW="26" imageH="21" set="dlc">weapon_axe_obsidian.png</weapon_obsidian_axe>
+        <weapon_titanium_axe slot="weapon" hint="|605|2 DAMAGE|" coinCost="120" flyaway="|10021|TITANIUM AXE|" isWeapon="True" isAxe="True" isTitanium="True" chestChance="1|2|8|20" shopChance="0|30|40" diamondDealable="4" imageW="26" imageH="21" set="dlc">weapon_axe_titanium.png</weapon_titanium_axe>
+        <weapon_obsidian_axe slot="weapon" hint="|606|MULTIPLIER-BASED DAMAGE|" coinCost="350" flyaway="|10022|OBSIDIAN AXE|" isWeapon="True" isAxe="True" isObsidian="True" numFrames="3" chestChance="1|1|8|16" shopChance="0" lockedShopChance="100" urnChance="10" imageW="26" imageH="21" set="dlc">weapon_axe_obsidian.png</weapon_obsidian_axe>
         <weapon_golden_axe slot="weapon" hint="|607|HIGH DMG AFTER GOLD PICKUP|" coinCost="120" flyaway="|10023|GOLDEN AXE|" isWeapon="True" isAxe="True" isGold="True" chestChance="1|5|10|0" shopChance="5|30|40|15|5" diamondDealable="3" imageW="26" imageH="21" set="dlc">weapon_axe_gold.png</weapon_golden_axe>
         <weapon_blood_axe slot="weapon" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" coinCost="80" flyaway="|10024|BLOOD AXE|" isWeapon="True" isAxe="True" isBlood="True" chestChance="1|5|10|5" shopChance="0|30|40|15|5" diamondDealable="3" imageW="26" imageH="21" set="dlc">weapon_axe_blood.png</weapon_blood_axe>
-        <weapon_glass_axe slot="weapon" hint="|609|4 DAMAGE, BREAKABLE|" coinCost="120" flyaway="|10025|GLASS AXE|" isWeapon="True" isAxe="True" isGlass="True" chestChance="1|2|5|25" shopChance="0" lockedShopChance="100" urnChance="1" diamondDealable="5" imageW="26" imageH="21" set="dlc">weapon_axe_glass.png</weapon_glass_axe>
+        <weapon_glass_axe slot="weapon" hint="|609|4 DAMAGE, BREAKABLE|" coinCost="120" flyaway="|10025|GLASS AXE|" isWeapon="True" isAxe="True" isGlass="True" chestChance="1|2|4|20" shopChance="0" lockedShopChance="100" urnChance="1" diamondDealable="5" imageW="26" imageH="21" set="dlc">weapon_axe_glass.png</weapon_glass_axe>
         <weapon_harp slot="weapon" hint="|10520|CIRCLE SPLASH|" coinCost="60" flyaway="|10026|HARP|" diamondCost="8" isWeapon="True" isHarp="True" chestChance="5|25|10|0" shopChance="40|30|20|0" diamondDealable="2" imageW="23" imageH="25" set="dlc">weapon_harp.png</weapon_harp>
         <weapon_titanium_harp slot="weapon" hint="|605|2 DAMAGE|" coinCost="120" flyaway="|10027|TITANIUM HARP|" isWeapon="True" isHarp="True" isTitanium="True" chestChance="1|1|5|10" shopChance="0|20|20|8" diamondDealable="4" imageW="23" imageH="25" set="dlc">weapon_harp_titanium.png</weapon_titanium_harp>
         <weapon_obsidian_harp slot="weapon" hint="|606|MULTIPLIER-BASED DAMAGE|" coinCost="350" flyaway="|10028|OBSIDIAN HARP|" isWeapon="True" isHarp="True" isObsidian="True" numFrames="3" chestChance="1|1|3|10" shopChance="0" lockedShopChance="100" imageW="23" imageH="25" set="dlc">weapon_harp_obsidian.png</weapon_obsidian_harp>
         <weapon_golden_harp slot="weapon" hint="|607|HIGH DMG AFTER GOLD PICKUP|" coinCost="120" flyaway="|10029|GOLDEN HARP|" isWeapon="True" isHarp="True" isGold="True" chestChance="1|1|15|0" shopChance="5|15|20|10|5" diamondDealable="3" imageW="23" imageH="25" set="dlc">weapon_harp_gold.png</weapon_golden_harp>
         <weapon_blood_harp slot="weapon" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" coinCost="80" flyaway="|10030|BLOOD HARP|" isWeapon="True" isHarp="True" isBlood="True" chestChance="1|1|5|5" shopChance="0|10|15|25" diamondDealable="3" imageW="23" imageH="25" set="dlc">weapon_harp_blood.png</weapon_blood_harp>
         <weapon_glass_harp slot="weapon" hint="|609|4 DAMAGE, BREAKABLE|" coinCost="120" flyaway="|10031|GLASS HARP|" isWeapon="True" isHarp="True" isGlass="True" chestChance="1|1|5|15" shopChance="0" lockedShopChance="100" diamondDealable="5" imageW="23" imageH="25" set="dlc">weapon_harp_glass.png</weapon_glass_harp>
-        <weapon_warhammer slot="weapon" hint="|10529|WIDE, LONG ATTACK|" coinCost="60" flyaway="|10032|WARHAMMER|" diamondCost="8" isWeapon="True" isWarhammer="True" chestChance="0|0|5|0" shopChance="0" lockedShopChance="100" diamondDealable="2" imageW="26" imageH="26" set="dlc">weapon_warhammer.png</weapon_warhammer>
-        <weapon_titanium_warhammer slot="weapon" hint="|605|2 DAMAGE|" coinCost="120" flyaway="|10033|TITANIUM WARHAMMER|" isWeapon="True" isWarhammer="True" isTitanium="True" chestChance="0|0|1" shopChance="0" lockedShopChance="100" diamondDealable="4" imageW="26" imageH="26" set="dlc">weapon_warhammer_titanium.png</weapon_titanium_warhammer>
-        <weapon_obsidian_warhammer slot="weapon" hint="|606|MULTIPLIER-BASED DAMAGE|" coinCost="350" flyaway="|10034|OBSIDIAN WARHAMMER|" isWeapon="True" isWarhammer="True" isObsidian="True" numFrames="3" chestChance="0|0|1|2" shopChance="0" lockedShopChance="15" imageW="26" imageH="26" set="dlc">weapon_warhammer_obsidian.png</weapon_obsidian_warhammer>
-        <weapon_golden_warhammer slot="weapon" hint="|607|HIGH DMG AFTER GOLD PICKUP|" coinCost="120" flyaway="|10035|GOLDEN WARHAMMER|" isWeapon="True" isWarhammer="True" isGold="True" chestChance="0|0|1" shopChance="0" lockedShopChance="50" diamondDealable="3" imageW="26" imageH="26" set="dlc">weapon_warhammer_gold.png</weapon_golden_warhammer>
-        <weapon_blood_warhammer slot="weapon" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" coinCost="80" flyaway="|10036|BLOOD WARHAMMER|" isWeapon="True" isWarhammer="True" isBlood="True" chestChance="0|0|1" shopChance="0" lockedShopChance="25" diamondDealable="3" imageW="26" imageH="26" set="dlc">weapon_warhammer_blood.png</weapon_blood_warhammer>
-        <weapon_glass_warhammer slot="weapon" hint="|609|4 DAMAGE, BREAKABLE|" coinCost="120" flyaway="|10037|GLASS WARHAMMER|" isWeapon="True" isWarhammer="True" isGlass="True" chestChance="0|0|1" shopChance="0" lockedShopChance="15" diamondDealable="5" imageW="26" imageH="26" set="dlc">weapon_warhammer_glass.png</weapon_glass_warhammer>
+        <weapon_warhammer slot="weapon" hint="|10529|WIDE, LONG ATTACK|" coinCost="60" flyaway="|10032|WARHAMMER|" diamondCost="8" isWeapon="True" isWarhammer="True" chestChance="0|0|3|0" shopChance="0" lockedShopChance="20" diamondDealable="2" imageW="26" imageH="26" set="dlc">weapon_warhammer.png</weapon_warhammer>
+        <weapon_titanium_warhammer slot="weapon" hint="|605|2 DAMAGE|" coinCost="120" flyaway="|10033|TITANIUM WARHAMMER|" isWeapon="True" isWarhammer="True" isTitanium="True" chestChance="0|0|1" shopChance="0" lockedShopChance="20" diamondDealable="4" imageW="26" imageH="26" set="dlc">weapon_warhammer_titanium.png</weapon_titanium_warhammer>
+        <weapon_obsidian_warhammer slot="weapon" hint="|606|MULTIPLIER-BASED DAMAGE|" coinCost="350" flyaway="|10034|OBSIDIAN WARHAMMER|" isWeapon="True" isWarhammer="True" isObsidian="True" numFrames="3" chestChance="0|0|1|2" shopChance="0" lockedShopChance="5" imageW="26" imageH="26" set="dlc">weapon_warhammer_obsidian.png</weapon_obsidian_warhammer>
+        <weapon_golden_warhammer slot="weapon" hint="|607|HIGH DMG AFTER GOLD PICKUP|" coinCost="120" flyaway="|10035|GOLDEN WARHAMMER|" isWeapon="True" isWarhammer="True" isGold="True" chestChance="0|0|1" shopChance="0" lockedShopChance="10" diamondDealable="3" imageW="26" imageH="26" set="dlc">weapon_warhammer_gold.png</weapon_golden_warhammer>
+        <weapon_blood_warhammer slot="weapon" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" coinCost="80" flyaway="|10036|BLOOD WARHAMMER|" isWeapon="True" isWarhammer="True" isBlood="True" chestChance="0|0|1" shopChance="0" lockedShopChance="5" diamondDealable="3" imageW="26" imageH="26" set="dlc">weapon_warhammer_blood.png</weapon_blood_warhammer>
+        <weapon_glass_warhammer slot="weapon" hint="|609|4 DAMAGE, BREAKABLE|" coinCost="120" flyaway="|10037|GLASS WARHAMMER|" isWeapon="True" isWarhammer="True" isGlass="True" chestChance="0|0|1" shopChance="0" lockedShopChance="3" diamondDealable="5" imageW="26" imageH="26" set="dlc">weapon_warhammer_glass.png</weapon_glass_warhammer>
         <weapon_staff slot="weapon" hint="|10522|LINE SPLASH|" coinCost="60" flyaway="|10038|STAFF|" diamondCost="8" isWeapon="True" isStaff="True" chestChance="5|25|10|0" shopChance="40|30|20|0" diamondDealable="2" set="dlc">weapon_staff.png</weapon_staff>
         <weapon_titanium_staff slot="weapon" hint="|605|2 DAMAGE|" coinCost="120" flyaway="|10039|TITANIUM STAFF|" isWeapon="True" isStaff="True" isTitanium="True" chestChance="1|1|5|10" shopChance="0|20|20|8" diamondDealable="4" set="dlc">weapon_staff_titanium.png</weapon_titanium_staff>
         <weapon_obsidian_staff slot="weapon" hint="|606|MULTIPLIER-BASED DAMAGE|" coinCost="350" flyaway="|10040|OBSIDIAN STAFF|" isWeapon="True" isStaff="True" isObsidian="True" numFrames="3" chestChance="1|1|3|10" shopChance="0" lockedShopChance="100" set="dlc">weapon_staff_obsidian.png</weapon_obsidian_staff>
@@ -288,22 +288,22 @@
         <weapon_glass_staff slot="weapon" hint="|609|4 DAMAGE, BREAKABLE|" coinCost="120" flyaway="|10043|GLASS STAFF|" isWeapon="True" isStaff="True" isGlass="True" chestChance="1|1|5|15" shopChance="0" lockedShopChance="100" diamondDealable="5" set="dlc">weapon_staff_glass.png</weapon_glass_staff>
 		<weapon_cutlass slot="weapon" hint="|10523|PARRY ATTACK|" coinCost="150" flyaway="|10044|CUTLASS|" isWeapon="True" isCutlass="True" chestChance="0|0|5|0" shopChance="0" lockedShopChance="100" unlocked="true" diamondDealable="2" imageW="26" imageH="26" set="dlc">weapon_cutlass.png</weapon_cutlass>
 		<weapon_titanium_cutlass slot="weapon" hint="|605|2 DAMAGE|" imageW="26" imageH="26" coinCost="400" flyaway="|10053|TITANIUM CUTLASS|" isWeapon="True" isCutlass="True" isTitanium="True" chestChance="0|0|1" shopChance="0" lockedShopChance="100" unlocked="true" urnChance="10" diamondDealable="6" set="dlc">weapon_cutlass_titanium.png</weapon_titanium_cutlass>
-		<weapon_obsidian_cutlass slot="weapon" hint="|606|MULTIPLIER-BASED DAMAGE|" imageW="26" imageH="26" numFrames="3" coinCost="600" flyaway="|10054|OBSIDIAN CUTLASS|" isWeapon="True" isCutlass="True" isObsidian="True" chestChance="0|0|1|2" shopChance="0" lockedShopChance="15" unlocked="true" urnChance="10" diamondDealable="8" set="dlc">weapon_cutlass_obsidian.png</weapon_obsidian_cutlass>
+		<weapon_obsidian_cutlass slot="weapon" hint="|606|MULTIPLIER-BASED DAMAGE|" imageW="26" imageH="26" numFrames="3" coinCost="600" flyaway="|10054|OBSIDIAN CUTLASS|" isWeapon="True" isCutlass="True" isObsidian="True" chestChance="0|0|1|2" shopChance="0" lockedShopChance="50" unlocked="true" urnChance="10" diamondDealable="8" set="dlc">weapon_cutlass_obsidian.png</weapon_obsidian_cutlass>
 		<weapon_golden_cutlass slot="weapon" hint="|607|HIGH DMG AFTER GOLD PICKUP|" imageW="26" imageH="26" coinCost="300" flyaway="|10055|GOLDEN CUTLASS|" isWeapon="True" isCutlass="True" isGold="True" chestChance="0|0|1" shopChance="0|0|0|0" lockedShopChance="50" unlocked="true" diamondDealable="4" set="dlc">weapon_cutlass_golden.png</weapon_golden_cutlass>
         <weapon_blood_cutlass slot="weapon" hint="|608|KILL TO HEAL, LOW HEALTH = +DAMAGE|" imageW="26" imageH="26" coinCost="250" flyaway="|10056|BLOOD CUTLASS|" isWeapon="True" isCutlass="True" isBlood="True" chestChance="0|0|1" shopChance="0|0|0|0" lockedShopChance="25" unlocked="true" diamondDealable="4" set="dlc">weapon_cutlass_blood.png</weapon_blood_cutlass>
-        <weapon_glass_cutlass slot="weapon" hint="|609|4 DAMAGE, BREAKABLE|" imageW="26" imageH="26" coinCost="400" flyaway="|10057|GLASS CUTLASS|" isWeapon="True" isCutlass="True" isGlass="True" chestChance="0|0|1" shopChance="0|0|0|0" lockedShopChance="15" unlocked="true" diamondDealable="8" set="dlc">weapon_cutlass_glass.png</weapon_glass_cutlass>
+        <weapon_glass_cutlass slot="weapon" hint="|609|4 DAMAGE, BREAKABLE|" imageW="26" imageH="26" coinCost="400" flyaway="|10057|GLASS CUTLASS|" isWeapon="True" isCutlass="True" isGlass="True" chestChance="0|0|1" shopChance="0|0|0|0" lockedShopChance="30" unlocked="true" diamondDealable="8" set="dlc">weapon_cutlass_glass.png</weapon_glass_cutlass>
 	</items>
 
 	<!--
 	*** ALGORITHM FOR DETERMINING PRIORITY VALUES ***
-
+	
 	1 for not massive, 2 for massive, 3 for miniboss, 4 for boss
 	00 to 99 for damage
 	00 to 99 for health
 	0 to 9 for speed
 	00 to 99 for coins
 	So a massive enemy with 90 damage, 80 health, 7 speed and 60 coins would be: 29080760
-
+	
 	Some enemies have their values set manually, for other gameplay reasons, like exploding mushrooms, red dragons, and the conga line zombies.
 	-->
 	<enemies>
@@ -503,17 +503,21 @@
 			<optionalStats bounceOnMovementFail="False" />
 		</bell>
 		<beastmaster type="1" levelEditor="False">
-			<spritesheet numFrames="4" frameW="27" frameH="25" yOff="0">entities/beastmaster.png</spritesheet>
-			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.14" offFraction="0.99" />
-			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.99" offFraction="0.14" />
+			<spritesheet numFrames="8" frameW="29" frameH="27" yOff="0">entities/beastmaster.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.99" offFraction="0.09" />
+			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.69" offFraction="0.99" />
+			<frame inSheet="3" inAnim="3" animType="normal" onFraction="0.39" offFraction="0.69" />
+			<frame inSheet="4" inAnim="4" animType="normal" onFraction="0.09" offFraction="0.39" />
 			<shadow xOff="-2" yOff="2">entities/TEMP_shadow_standard.png</shadow>
 			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="10" movement="custom" />
 			<optionalStats bounceOnMovementFail="False" />
 		</beastmaster>
 		<bossmaster type="1" levelEditor="False">
-			<spritesheet numFrames="4" frameW="26" frameH="31" yOff="-2">entities/bossmaster.png</spritesheet>
-			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.14" offFraction="0.99" />
-			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.99" offFraction="0.14" />
+			<spritesheet numFrames="8" frameW="29" frameH="34" xOff="-2" yOff="-3">entities/bossmaster.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.99" offFraction="0.09" />
+			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.69" offFraction="0.99" />
+			<frame inSheet="3" inAnim="3" animType="normal" onFraction="0.39" offFraction="0.69" />
+			<frame inSheet="4" inAnim="4" animType="normal" onFraction="0.09" offFraction="0.39" />
 			<shadow yOff="4">entities/TEMP_shadow_standard.png</shadow>
 			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="10" movement="custom" />
 			<optionalStats bounceOnMovementFail="False" />
@@ -614,6 +618,67 @@
 			<stats beatsPerMove="1" coinsToDrop="2" damagePerHit="3" health="1" priority="10301102" movement="custom" />
 			<particle hit="particles/TEMP_particle_white.png" />
 		</clone>
+		<conductor type="1" levelEditor="False" friendlyName="The Conductor">
+			<spritesheet numFrames="12" frameW="57" frameH="58" xOff="-12" yOff="-25" zOff="30" heartYOff="-27" heartXOff="-1">entities/conductor.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.99" offFraction="0.09" />
+			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.69" offFraction="0.99" />
+			<frame inSheet="3" inAnim="3" animType="normal" onFraction="0.39" offFraction="0.69" />
+			<frame inSheet="4" inAnim="4" animType="normal" onFraction="0.09" offFraction="0.39" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="4" health="5" priority="40103400" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" floating="True" boss="True" />
+			<tweens move="slide" moveShadow="slide" hit="slide" hitShadow="slide" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+		</conductor>
+		<conductor_battery type="1" levelEditor="False">
+			<spritesheet numFrames="24" frameW="21" frameH="35" xOff="1" yOff="0" zOff="10">entities/conductor_battery.png</spritesheet>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" boss="True" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+		</conductor_battery>
+		<conductor_prop type="1" levelEditor="False">
+			<spritesheet numFrames="2" frameW="31" frameH="15" xOff="-3" yOff="12">entities/conductor_keyboard.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" singleFrame="True" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" floating="True" boss="True" />
+			<particle hit="particles/TEMP_particle_yellow.png" />
+			<tweens move="slide" moveShadow="slide" hit="slide" hitShadow="slide" />
+		</conductor_prop>
+		<conductor_prop type="2" levelEditor="False">
+			<spritesheet numFrames="2" frameW="31" frameH="32" xOff="0" yOff="-3">entities/conductor_elec_guitar.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" singleFrame="True" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" floating="True" boss="True" />
+			<particle hit="particles/TEMP_particle_yellow.png" />
+			<tweens move="slide" moveShadow="slide" hit="slide" hitShadow="slide" />
+		</conductor_prop>
+		<conductor_prop type="3" levelEditor="False">
+			<spritesheet numFrames="2" frameW="21" frameH="46" xOff="1" yOff="-12">entities/conductor_bass.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" singleFrame="True" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" floating="True" boss="True" />
+			<particle hit="particles/TEMP_particle_yellow.png" />
+			<tweens move="slide" moveShadow="slide" hit="slide" hitShadow="slide" />
+		</conductor_prop>
+		<conductor_prop type="4" levelEditor="False">
+			<spritesheet numFrames="2" frameW="24" frameH="32" xOff="0" yOff="-1">entities/conductor_drum.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" singleFrame="True" />
+			<shadow>entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" floating="True" boss="True" />
+			<particle hit="particles/TEMP_particle_yellow.png" />
+			<tweens move="slide" moveShadow="slide" hit="slide" hitShadow="slide" />
+		</conductor_prop>
+		<conductor_sarcophagus type="1" levelEditor="False">
+			<spritesheet numFrames="2" frameW="24" frameH="24" xOff="0" yOff="7">entities/sarcophagus_conductor.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" singleFrame="True" />
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" priority="10101100" movement="custom" />
+			<particle hit="particles/TEMP_particle_red.png" />
+			<optionalStats bounceOnMovementFail="False" />
+			<shadow yOff="2">entities/TEMP_shadow_large.png</shadow>
+		</conductor_sarcophagus>
 		<conjurer type="1" levelEditor="False">
 			<spritesheet numFrames="10" frameW="63" frameH="41" xOff="-8" yOff="-8" zOff="8">entities/npc_conjurer.png</spritesheet>
 			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.79" offFraction="0.99" />
@@ -727,25 +792,31 @@
 			<stats beatsPerMove="1" coinsToDrop="3" damagePerHit="3" health="5" priority="10305103" movement="custom" />
 		</doppelganger>
 		<dragon type="1" id="402" friendlyName="Green Dragon">
-			<spritesheet numFrames="4" frameW="54" frameH="51" xOff="-15" yOff="-24" zOff="36" heartYOff="-28">entities/dragon_green.png</spritesheet>
-			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.14" offFraction="0.99" />
-			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.99" offFraction="0.14" />
+			<spritesheet numFrames="8" frameW="54" frameH="51" xOff="-15" yOff="-24" zOff="36" heartYOff="-28">entities/dragon_green.png</spritesheet>
+			<frame inSheet="4" inAnim="1" animType="normal" onFraction="0.69" offFraction="0.99" />
+			<frame inSheet="1" inAnim="2" animType="normal" onFraction="0.39" offFraction="0.69" />
+			<frame inSheet="2" inAnim="3" animType="normal" onFraction="0.09" offFraction="0.39" />
+			<frame inSheet="3" inAnim="4" animType="normal" onFraction="0.99" offFraction="0.09" />
 			<shadow>entities/TEMP_shadow_large.png</shadow>
 			<stats beatsPerMove="2" coinsToDrop="10" damagePerHit="4" health="4" priority="30404210" movement="custom" />
 			<optionalStats massive="True" miniboss="True" />
 		</dragon>
 		<dragon type="2" id="403" friendlyName="Red Dragon">
-			<spritesheet numFrames="14" frameW="61" frameH="51" xOff="-22" yOff="-24" zOff="36" heartYOff="-28">entities/dragon_red.png</spritesheet>
-			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.14" offFraction="0.99" />
-			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.99" offFraction="0.14" />
+			<spritesheet numFrames="18" frameW="61" frameH="51" xOff="-22" yOff="-24" zOff="36" heartYOff="-28">entities/dragon_red.png</spritesheet>
+			<frame inSheet="4" inAnim="1" animType="normal" onFraction="0.69" offFraction="0.99" />
+			<frame inSheet="1" inAnim="2" animType="normal" onFraction="0.39" offFraction="0.69" />
+			<frame inSheet="2" inAnim="3" animType="normal" onFraction="0.09" offFraction="0.39" />
+			<frame inSheet="3" inAnim="4" animType="normal" onFraction="0.99" offFraction="0.09" />
 			<shadow>entities/TEMP_shadow_large.png</shadow>
 			<stats beatsPerMove="2" coinsToDrop="20" damagePerHit="6" health="6" priority="99999999" movement="custom" />
 			<optionalStats massive="True" miniboss="True" />
 		</dragon>
 		<dragon type="3" id="404" friendlyName="Blue Dragon">
-			<spritesheet numFrames="14" frameW="61" frameH="51" xOff="-22" yOff="-24" zOff="36" heartYOff="-28">entities/dragon_blue.png</spritesheet>
-			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.14" offFraction="0.99" />
-			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.99" offFraction="0.14" />
+			<spritesheet numFrames="18" frameW="61" frameH="51" xOff="-22" yOff="-24" zOff="36" heartYOff="-28">entities/dragon_blue.png</spritesheet>
+			<frame inSheet="4" inAnim="1" animType="normal" onFraction="0.69" offFraction="0.99" />
+			<frame inSheet="1" inAnim="2" animType="normal" onFraction="0.39" offFraction="0.69" />
+			<frame inSheet="2" inAnim="3" animType="normal" onFraction="0.09" offFraction="0.39" />
+			<frame inSheet="3" inAnim="4" animType="normal" onFraction="0.99" offFraction="0.09" />
 			<shadow>entities/TEMP_shadow_large.png</shadow>
 			<stats beatsPerMove="2" coinsToDrop="20" damagePerHit="6" health="6" priority="99999997" movement="custom" />
 			<optionalStats massive="True" miniboss="True" />
@@ -875,6 +946,26 @@
 			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="2" health="2" priority="40202100" movement="custom" />
 			<optionalStats boss="True" />
 		</fortissimole>
+		<frankensteinway type="1" levelEditor="False" friendlyName="Frankensteinway">
+			<spritesheet numFrames="72" frameW="64" frameH="63" xOff="-8" yOff="-10" zOff="34" heartXOff="-10" heartYOff="-50">entities/frankensteinway.png</spritesheet>
+			<frame inSheet="2" inAnim="1" animType="normal" onFraction="0.74" offFraction="0.99" />
+			<frame inSheet="3" inAnim="2" animType="normal" onFraction="0.49" offFraction="0.74" />
+			<frame inSheet="4" inAnim="3" animType="normal" onFraction="0.24" offFraction="0.49" />
+			<frame inSheet="1" inAnim="4" animType="normal" onFraction="0.99" offFraction="0.24" />
+			<frame inSheet="6" inAnim="1" animType="normal2" onFraction="0.74" offFraction="0.99" />
+			<frame inSheet="7" inAnim="2" animType="normal2" onFraction="0.49" offFraction="0.74" />
+			<frame inSheet="8" inAnim="3" animType="normal2" onFraction="0.24" offFraction="0.49" />
+			<frame inSheet="5" inAnim="4" animType="normal2" onFraction="0.99" offFraction="0.24" />
+			<shadow>entities/shadow_frankensteinway.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="0" health="40" priority="40040100" movement="custom" />
+			<optionalStats massive="True" boss="True" />
+		</frankensteinway>
+		<frankensteinway_prop type="1" levelEditor="False">
+			<spritesheet numFrames="34" frameW="28" frameH="40" xOff="-2" yOff="0">entities/frankensteinway_prop.png</spritesheet>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="1" health="1" movement="custom" />
+			<particle hit="particles/TEMP_particle_dirt.png" />
+			<shadow>entities/TEMP_shadow_large.png</shadow>
+		</frankensteinway_prop>
 		<gargoyle type="1" id="322">
 			<spritesheet numFrames="8" frameW="31" frameH="34" xOff="-3" yOff="-9" zOff="10" heartYOff="-10">entities/gargoyle1.png</spritesheet>
 			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.14" offFraction="0.99" />
@@ -1730,12 +1821,65 @@
 			<tweens move="slide" moveShadow="slide" hit="slide" hitShadow="slide" />
 			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="5" health="5" priority="109999998" movement="custom" />
 		</shopkeeper>
+		<shopkeeper type="6" id="600">
+			<spritesheet numFrames="16" frameW="25" frameH="26" xOff="-1" yOff="2">entities/shopkeeper6.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.14" offFraction="0.99" />
+			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.99" offFraction="0.14" />
+			<frame inSheet="3" inAnim="1" animType="normal2" onFraction="0.14" offFraction="0.99" />
+			<frame inSheet="4" inAnim="2" animType="normal2" onFraction="0.99" offFraction="0.14" />
+			<shadow yOff="5">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="20" health="9" priority="99999997" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</shopkeeper>
+		<shopkeeper type="7" id="601">
+			<spritesheet numFrames="16" frameW="25" frameH="26" xOff="-1" yOff="2">entities/shopkeeper7.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.14" offFraction="0.99" />
+			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.99" offFraction="0.14" />
+			<frame inSheet="3" inAnim="1" animType="normal2" onFraction="0.14" offFraction="0.99" />
+			<frame inSheet="4" inAnim="2" animType="normal2" onFraction="0.99" offFraction="0.14" />
+			<shadow yOff="5">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="20" health="8" priority="99999997" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</shopkeeper>
+		<shopkeeper type="8" id="602">
+			<spritesheet numFrames="16" frameW="25" frameH="26" xOff="-1" yOff="2">entities/shopkeeper8.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.14" offFraction="0.99" />
+			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.99" offFraction="0.14" />
+			<frame inSheet="3" inAnim="1" animType="normal2" onFraction="0.14" offFraction="0.99" />
+			<frame inSheet="4" inAnim="2" animType="normal2" onFraction="0.99" offFraction="0.14" />
+			<shadow yOff="5">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="20" health="8" priority="99999997" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</shopkeeper>
+		<shopkeeper type="9" id="603">
+			<spritesheet numFrames="16" frameW="25" frameH="26" xOff="-1" yOff="2">entities/shopkeeper9.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.14" offFraction="0.99" />
+			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.99" offFraction="0.14" />
+			<frame inSheet="3" inAnim="1" animType="normal2" onFraction="0.14" offFraction="0.99" />
+			<frame inSheet="4" inAnim="2" animType="normal2" onFraction="0.99" offFraction="0.14" />
+			<shadow yOff="5">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="20" health="1" priority="99999997" movement="custom" />
+			<optionalStats bounceOnMovementFail="False" />
+		</shopkeeper>
 		<shopkeeper_ghost levelEditor="false" type="1" id="604" friendlyName="Shopkeeper Ghost">
 			<spritesheet numFrames="16" frameW="47" frameH="38" xOff="-12" yOff="-14" zOff="14">entities/shopkeeper_ghost.png</spritesheet>
 			<frame inSheet="5" inAnim="1" animType="normal" onFraction="0.14" offFraction="0.99" />
 			<frame inSheet="6" inAnim="2" animType="normal" onFraction="0.99" offFraction="0.14" />
 			<frame inSheet="7" inAnim="1" animType="normal2" onFraction="0.14" offFraction="0.99" />
 			<frame inSheet="8" inAnim="2" animType="normal2" onFraction="0.99" offFraction="0.14" />
+			<shadow yOff="5">entities/TEMP_shadow_standard.png</shadow>
+			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="10" health="1" priority="109999999" movement="seekWithDiagonals" />
+			<optionalStats floating="True" bounceOnMovementFail="False" ignoreWalls="True" />
+			<bouncer min="-2.5" max="0" power="1.5" steps="15" />
+			<tweens move="slide" moveShadow="slide" hit="slide" hitShadow="slide" />
+			<particle hit="particles/TEMP_particle_white.png" />
+		</shopkeeper_ghost>
+		<shopkeeper_ghost levelEditor="false" type="2" id="604" friendlyName="Shopkeeper Ghost">
+			<spritesheet numFrames="16" frameW="25" frameH="26" xOff="-1" yOff="2">entities/shopkeeper_ghost2.png</spritesheet>
+			<frame inSheet="1" inAnim="1" animType="normal" onFraction="0.14" offFraction="0.99" />
+			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.99" offFraction="0.14" />
+			<frame inSheet="3" inAnim="1" animType="normal2" onFraction="0.14" offFraction="0.99" />
+			<frame inSheet="4" inAnim="2" animType="normal2" onFraction="0.99" offFraction="0.14" />
 			<shadow yOff="5">entities/TEMP_shadow_standard.png</shadow>
 			<stats beatsPerMove="1" coinsToDrop="0" damagePerHit="10" health="1" priority="109999999" movement="seekWithDiagonals" />
 			<optionalStats floating="True" bounceOnMovementFail="False" ignoreWalls="True" />
@@ -2389,6 +2533,10 @@
 			<frame inSheet="2" inAnim="2" animType="normal" onFraction="0.69" offFraction="0.99" />
 			<frame inSheet="3" inAnim="3" animType="normal" onFraction="0.39" offFraction="0.69" />
 			<frame inSheet="4" inAnim="4" animType="normal" onFraction="0.09" offFraction="0.39" />
+			<frame inSheet="5" inAnim="1" animType="normal2" onFraction="0.99" offFraction="0.09" />
+			<frame inSheet="6" inAnim="2" animType="normal2" onFraction="0.69" offFraction="0.99" />
+			<frame inSheet="7" inAnim="3" animType="normal2" onFraction="0.39" offFraction="0.69" />
+			<frame inSheet="8" inAnim="4" animType="normal2" onFraction="0.09" offFraction="0.39" />
 			<shadow xOff="-2" yOff="2">entities/TEMP_shadow_standard.png</shadow>
 			<stats beatsPerMove="1" coinsToDrop="100" damagePerHit="20" health="10" movement="custom" />
 			<optionalStats bounceOnMovementFail="False" />
@@ -2499,6 +2647,7 @@
 		<character id="4">
 			<initial_equipment>
 				<item type="weapon_eli" />
+				<cursed slot="weapon" />
 				<item type="shovel_basic" />
 				<cursed slot="shovel" />
 				<item type="charm_nazar" />
@@ -2550,6 +2699,29 @@
 				<item type="weapon_dagger" />
 				<item type="shovel_basic" />
 				<item type="torch_1" />
+			</initial_equipment>
+		</character>
+		<character id="12">
+			<initial_equipment>
+				<item type="weapon_spear" />
+				<item type="shovel_basic" />
+				<item type="torch_1" />
+				<item type="food_cookies" />
+				<item type="charm_nazar" />
+			</initial_equipment>
+		</character>
+		<character id="13">
+			<initial_equipment>
+				<item type="weapon_blood_dagger" />
+				<item type="shovel_basic" />
+				<item type="torch_1" />
+				<item type="misc_compass" />
+			</initial_equipment>
+		</character>
+		<character id="14">
+			<initial_equipment>
+				<item type="weapon_dagger" />
+				<item type="shovel_basic" />
 			</initial_equipment>
 		</character>
 	</characters>

@@ -175,7 +175,7 @@ class ItemRebalancer(object):
             if item.slot == 'body' and item.name not in ('armor_leather', 'armor_platemail_dorian', 'armor_gi'):
                 self.restrict_to_boss_chests(item)
             # Restrict bomb-related items to the boss chests (red)
-            if item.name in ('head_blast_helm', 'charm_grenade', 'charm_bomb', 'bomb_3'):
+            if item.name in ('head_blast_helm', 'charm_grenade', 'bomb_3'):
                 self.restrict_to_boss_chests(item)
             # Add back scrolls and tomes to the boss chests (purple)
             if item.isScroll and item.name not in ( 'scroll_fear', 'scroll_gigantism', 'scroll_riches',

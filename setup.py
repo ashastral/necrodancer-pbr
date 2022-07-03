@@ -4,8 +4,8 @@ setup(
     name='necrodancer-pbr',
     version='0.1',
     description='Pre-Built Racing mod generator for Crypt of the NecroDancer',
-    url='https://github.com/fraxtil/necrodancer-pbr',
-    author='Fraxtil',
+    url='https://github.com/ashastral/necrodancer-pbr',
+    author='ashastral',
     packages=['pbr'],
     include_package_data=True,
     entry_points={

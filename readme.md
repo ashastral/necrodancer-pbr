@@ -25,11 +25,11 @@ Shopkeeper and shrine sprites have a text warning overlaid to remind racers of t
 
 * **Weapon:** any titanium or obsidian weapon (except dagger and whip), or any special dagger or gun
 * **Shovel:** any except basic
-* **Headgear:** any except glass jaw or crown of greed
+* **Headgear:** any except glass jaw, crown of greed, or crown of thorns
 * **Armor:** any except karate gi
-* **Footwear:** any
+* **Footwear:** any except boots of pain
 * **Torch:** any
-* **Ring:** any except shadows or becoming / wonder
+* **Ring:** any except shadows, pain, or becoming / wonder
 * **Spells:** any except transmute; 25% chance of 2nd spell
 * **HUD:** either backpack or holster, 50/50
 * **Misc / charms:** 10% chance of each pickup except potion, bomb charm, grenade charm, and lucky charm

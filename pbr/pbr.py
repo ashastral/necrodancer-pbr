@@ -57,19 +57,19 @@ class BuildRandomizer(object):
         self.set_slot('shovel', ('shovel_shard', 'shovel_basic'))
 
     def set_headgear(self):
-        self.set_slot('head', ('head_glass_jaw', 'head_ninja_mask', 'head_crown_of_greed', 'head_sonar'))
+        self.set_slot('head', ('head_glass_jaw', 'head_ninja_mask', 'head_crown_of_greed', 'head_sonar', 'head_crown_of_thorns'))
 
     def set_armor(self):
         self.set_slot('body', ('armor_platemail_dorian', 'armor_gi'))
 
     def set_footwear(self):
-        self.set_slot('feet', ('feet_boots_speed'))
+        self.set_slot('feet', ('feet_boots_speed', 'feet_boots_pain'))
 
     def set_torch(self):
         self.set_slot('torch')
 
     def set_ring(self):
-        self.set_slot('ring', ('ring_shadows', 'ring_phasing', 'ring_becoming', 'ring_wonder'))
+        self.set_slot('ring', ('ring_shadows', 'ring_phasing', 'ring_becoming', 'ring_wonder', 'ring_pain'))
 
     def set_spells(self):
         excluded_spells = ('spell_transmute', 'spell_pulse', 'spell_charm', 'spell_transform')
